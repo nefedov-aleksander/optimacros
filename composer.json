@@ -1,0 +1,22 @@
+{
+    "name": "optimacros/optimacros",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Optimacros\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bpm\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "scripts": {
+        "test": "phpunit"
+    }
+}
